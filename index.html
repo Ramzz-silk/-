@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>尺丹爪乙乙 STORE</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:Arial,sans-serif;
+}
+
+body{
+
+background:#05070d;
+
+color:white;
+
+overflow-x:hidden;
+
+}
+
+/* Background */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:
+
+radial-gradient(circle at center,#00bfff20,transparent 60%),
+
+linear-gradient(#05070d,#0b1220);
+
+z-index:-3;
+
+}
+
+/* Coding */
+
+.code-bg{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+opacity:.05;
+
+font-size:15px;
+
+color:#00bfff;
+
+line-height:22px;
+
+white-space:pre;
+
+animation:scrollCode 18s linear infinite;
+
+z-index:-2;
+
+}
+
+@keyframes scrollCode{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+100%{
+
+transform:translateY(-250px);
+
+}
+
+}
+
+/* Navbar */
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:18px 8%;
+
+display:flex;
+
+justify-content:space-between
+  
